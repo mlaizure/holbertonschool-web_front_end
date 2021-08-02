@@ -1,0 +1,17 @@
+/* assigns text color #3D3D3D to the HTML tags body and p */
+/* assigns background color #6D6D6D to body and h2 */
+$grey: #3D3D3D;
+$light-grey: #6D6D6D;
+
+body {
+    color: $grey;
+    background-color: $light-grey;
+}
+
+p {
+    color: $grey;
+}
+
+h2 {
+    background-color: $light-grey;
+}

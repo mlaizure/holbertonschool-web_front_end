@@ -1,0 +1,8 @@
+/* assigns #FF0000 to button tags
+   when user hovers over button tags, text color changes to #00FF00 */
+button {
+    color: #FF0000;
+    &:hover {
+	color: #00FF00;
+    }
+}
