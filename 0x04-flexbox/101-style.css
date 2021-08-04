@@ -1,0 +1,50 @@
+/* Making these boxes conform to my demands */
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.box {
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: #1fcd6c;
+    font-size: 0.9em;
+    width: 60px;
+    height: 50px;
+}
+
+.box2 {
+    background-color: #2d98de;
+    font-size: 1.9em;
+    width: 100px;
+    height: 65px;
+}
+
+.box3 {
+    background-color: #344a61;
+    font-size: 3.1em;
+    width: 140px;
+    height: 100px;
+}
+
+.box4 {
+    background-color: #9d55b9;
+    font-size: 1.9em;
+    width: 100px;
+    height: 65px;
+}
+
+.box5 {
+    background-color: #ea7d04;
+    font-size: 0.9em;
+    width: 60px;
+    height: 50px;
+}
