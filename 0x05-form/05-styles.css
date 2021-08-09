@@ -729,7 +729,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 /* Form field
     ============================= */
 
-.form-field-selector {
+.form-field-container {
   position: relative;
 }
 
