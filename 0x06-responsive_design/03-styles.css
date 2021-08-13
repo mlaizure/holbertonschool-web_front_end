@@ -428,14 +428,14 @@
   /* Section Latest news
       ============================= */
 
-  @media (max-width: 767px) {
-    .section-latest-news row {
-      flex-direction: column;
-    }
-  }
-
   .section-latest-news .row {
     flex-direction: row-reverse;
+  }
+
+  @media (max-width: 767px) {
+    .section-latest-news .row {
+      flex-direction: column;
+    }
   }
 
   /* Section SERVICES
