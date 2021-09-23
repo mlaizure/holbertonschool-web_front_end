@@ -37,7 +37,7 @@
 	    function createForm () {
 		$("body table").before('<input type="text">', '<input type="text">', '<select name="selector"><option value="before">Before</option><option value="after">After</option></select>', '<input type="submit">');
 		$("input:submit").click(function () {
-		    addNewMember($("input:nth-of-type(1)").val(), $("input:nth-of-type(2)").val(), $("select").val());
+		    addNewMember($("input").first().val(), $("input:nth-of-type(2)").val(), $("select").val());
 		});
 	    }
 	    $(document).ready(function () {
