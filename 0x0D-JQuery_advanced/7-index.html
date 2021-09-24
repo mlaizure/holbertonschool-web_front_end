@@ -25,17 +25,15 @@
 		$("body ul").append(newItem);
 	    }
 	    function queryWikipedia (search) {
-		let url = "https://en.wikipedia.org/w/api.php?origin=*";
+		let url = "https://en.wikipedia.org/w/api.php";
 		const params = {
+		    origin: "*",
 		    action: "query",
 		    list: "search",
 		    srsearch: search,
 		    format: "json"
 		};
-		Object.keys(params).forEach(key => {
-		    url += "&" + key + "=" + params[key];
-		});
-	        $.get(url, function (data) {
+	        $.get(url, params, function (data) {
 	            data.query.search.forEach(article => {
 		        addNewArticle(article.pageid, article.title, article.snippet);
 	            });
