@@ -1,46 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "title": "fd",
-      "author": "fffff",
-      "id": 2
-    },
-    {
-      "title": "fd",
-      "author": "fffff",
-      "id": 3
-    },
-    {
-      "title": "f",
-      "author": "f",
-      "id": 4
-    },
-    {
-      "title": "",
-      "author": "",
-      "id": 5
-    },
-    {
-      "title": "",
-      "author": "",
-      "id": 6
-    },
-    {
-      "title": "",
-      "author": "",
-      "id": 7
-    },
-    {
-      "title": "",
-      "author": "",
-      "id": 8
-    },
-    {
       "title": "",
       "author": "",
       "id": 9
@@ -49,11 +9,6 @@
       "title": "",
       "author": "",
       "id": 10
-    },
-    {
-      "author": "ddd",
-      "title": "dddddddd",
-      "id": 11
     },
     {
       "author": "asdf",
@@ -74,11 +29,6 @@
       "author": "test1",
       "title": "test2",
       "id": 15
-    },
-    {
-      "author": "rrrrrrrr",
-      "title": "",
-      "id": 16
     },
     {
       "author": "rrrrrrrr",
@@ -126,18 +76,22 @@
       "id": 25
     },
     {
-      "author": "444sdf",
-      "title": "4444sdf",
-      "id": 26
-    }
-  ],
-  "comments": [
+      "author": "sdf",
+      "title": "asdf",
+      "id": 27
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "author": "sfs",
+      "title": "sfsfsfsfs",
+      "id": 28
+    },
+    {
+      "author": "sdfsdfsdfsdf",
+      "title": "afsfsfsfssfsfsfsfsfsfs",
+      "id": 30
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
